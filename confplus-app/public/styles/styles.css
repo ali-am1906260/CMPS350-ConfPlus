@@ -1,24 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family: 'Inika', serif;
+    font-family: "Inika", serif;
     font-weight: bold;
-    color: #01044A;
+    color: #01044a;
 }
 
-
-.mainBody{
+.mainBody {
     display: flex;
     flex-direction: column;
 }
 
-.mainHeader{
+.mainHeader {
     display: flex;
     padding: 1rem;
 }
 
-#mainLogo{
+#mainLogo {
     width: 13rem;
 }
 
@@ -32,17 +31,17 @@
     margin: 1.5rem;
 }
 
-.mainHeader li{
+.mainHeader li {
     font-size: 1.2rem;
     padding-right: 3rem;
 }
 
-.mainHeader li a{
+.mainHeader li a {
     text-decoration: none;
     color: #0a2351;
 }
 
-.landingPageMain{
+.landingPageMain {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,18 +53,15 @@
     /* background-attachment: fixed; */
     background-size: 95%;
     background-position: top right;
-
-
 }
 
-.mainContentAndImage{
+.mainContentAndImage {
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
-    
 }
 
-.mainText{
+.mainText {
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +74,7 @@
 
 #welcomeMessage2 {
     font-size: 1.4rem;
-    color: #C850C0;
+    color: #c850c0;
     width: 80%;
     padding-left: 0.5rem;
     margin-top: 0.8rem;
@@ -86,70 +82,82 @@
 
 #welcomeMessage3 {
     font-size: 1.1rem;
-    color: #4158D0;
+    color: #4158d0;
     padding-left: 0.5rem;
     margin-top: 1rem;
 }
 
-
-#landingPic{
+#landingPic {
     width: 30rem;
 }
 
-#joinUsButton, #submit, #loginButton,#addSchedule, #editSchedule, #deleteSchedule, #cancelSchedule, #submitSchedule{
+#joinUsButton,
+#submit,
+#loginButton,
+#addSchedule,
+#editSchedule,
+#deleteSchedule,
+#cancelSchedule,
+#submitSchedule,#cancelReview,#submitReview {
     background-color: #ffffff;
     /* border: 2px solid #01044A; */
     padding: 0.6rem 4rem;
     border-radius: 2rem;
     font-size: 1rem;
     text-decoration: none;
-    color: #01044A;
+    color: #01044a;
 }
 
-.buttonBackground{
+
+.buttonBackground {
     display: flex;
     justify-content: center;
     padding: 0.1rem;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
     border-radius: 2rem;
     width: fit-content;
     margin-top: 2.5rem;
     margin-left: 2.5rem;
-    transition: all 0.15s ease-in-out;    
-
+    transition: all 0.15s ease-in-out;
 }
 
-.buttonBackground:hover{
+.buttonBackground:hover {
     transform: translateY(-1.5px);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.stats{
+.stats {
     display: flex;
     font-size: 0.8rem;
     text-align: center;
-    color: #C850C0;
-
+    color: #c850c0;
 }
 
-#activeMembers, #activeOrganizers, #availableVenues {
+#activeMembers,
+#activeOrganizers,
+#availableVenues {
     /* margin: 1rem 7rem; */
     margin-top: 1rem;
     margin-left: 8rem;
     margin-right: 5rem;
 }
 
-.statNumber{
+.statNumber {
     font-size: 2.5rem;
     color: #0a2351;
 }
 
-.statsTitle{
-    color: #C850C0;
+.statsTitle {
+    color: #c850c0;
 }
 
 .statNumber span {
-    color: #FFC100;
+    color: #ffc100;
 }
 
 .navigateToConfs {
@@ -161,73 +169,85 @@
 }
 
 .navigateToConfs p {
-    color: #ADADAD;
+    color: #adadad;
     font-size: 1.2rem;
     padding-bottom: 0.8rem;
 }
 
-.navigateToConfs2{
+.navigateToConfs2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
-#downArrow{
+#downArrow {
     width: 1.3rem;
-    transition: all 0.30s ease-in-out;
-
+    transition: all 0.3s ease-in-out;
 }
 
-.navigateToConfs2:hover #downArrow{
+div.multiline {
+    display: flex;
+    flex-direction: row;
+}
+.navigateToConfs2:hover #downArrow {
     transform: translateY(8px);
 }
 
-.conferencesSection{
+.conferencesSection {
     background-color: #ffffff;
     background-image: none;
     margin-top: 2rem;
 }
 
-#conferencesHeader{
+#conferencesHeader {
     font-size: 2.3rem;
     margin-left: 8rem;
 }
 
-.searchAndSort{
+.searchAndSort {
     display: flex;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.sortContainer{
+.sortContainer {
     display: flex;
     flex-direction: column;
     margin: 0rem 11rem;
 }
 
-.sortContainer label, .textFieldContainer label, .feedbackPageInputContainer label, .loginDataContainer label{
-    color: #C850C0;
+.sortContainer label,
+.textFieldContainer label,
+.feedbackPageInputContainer label,
+.loginDataContainer label {
+    color: #c850c0;
     margin-left: 0.2rem;
 }
 
-.textFieldContainer, .feedbackPageInputContainer, .loginDataContainer{
+.textFieldContainer,
+.feedbackPageInputContainer,
+.loginDataContainer {
     display: flex;
     flex-direction: column;
     margin: 0rem 8rem;
 }
 
-#sort{
+#sort {
     background-color: #ffffff;
-    border-color: #ADADAD;
+    border-color: #adadad;
     border-width: 1.5px;
     border-radius: 0.5rem;
     padding: 0.5rem 2.5rem;
 }
 
-#search, #name, #email, #phoneNumber, #loginEmail, #password{
+#search,
+#name,
+#email,
+#phoneNumber,
+#loginEmail,
+#password {
     background-color: #ffffff;
-    border-color: #ADADAD;
+    border-color: #adadad;
     border-width: 1.5px;
     border-radius: 0.5rem;
     padding: 0.6rem;
@@ -235,14 +255,19 @@
     height: 2.6rem;
 }
 
-.conferenceCards{
+.conferenceCards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
     justify-items: center;
 }
 
-.conferenceCardBackground{
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+.conferenceCardBackground {
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
     width: fit-content;
     padding: 0.1rem;
     border-radius: 2.1rem;
@@ -250,17 +275,17 @@
     transition: all 0.15s ease-in-out;
 }
 
-.conferenceCardBackground:hover{
+.conferenceCardBackground:hover {
     transform: translateY(-4px);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.conferenceDataContainer{
+.conferenceDataContainer {
     margin: 1rem;
     border-radius: 1rem;
 }
 
-.conferenceCard{
+.conferenceCard {
     display: flex;
     flex-direction: column;
     width: 23rem;
@@ -269,64 +294,65 @@
     height: 33rem;
 }
 
-.conferenceTopPart{
+.conferenceTopPart {
     display: flex;
     flex-direction: row;
 }
 
-.conferenceHeaderContainer{
+.conferenceHeaderContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.conferenceTitle{
+.conferenceTitle {
     font-size: 1.3rem;
     text-align: center;
 }
 
-.presenterImage{
+.presenterImage {
     width: 5.5rem;
 }
 
-.conferenceLocationContainer{
+.conferenceLocationContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 2rem;
 }
 
-.conferenceDateContainer{
+.conferenceDateContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 0.5rem;
 }
 
-.conferenceLocation, .conferenceDate {
+.conferenceLocation,
+.conferenceDate {
     font-size: 0.8rem;
 }
 
-.conferenceImageContainer{
+.conferenceImageContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.presenterName{
+.presenterName {
     margin-top: 1rem;
     font-size: 1.1rem;
 }
 
-.presenterTitle{
+.presenterTitle {
     font-size: 0.75rem;
     width: 10rem;
     margin-top: 0.5rem;
 }
 
-
-.dateIcon, .locationIcon{
+.dateIcon,
+.locationIcon {
     width: 1.5rem;
     margin-right: 0.5rem;
 }
@@ -336,112 +362,115 @@
     margin-bottom: 1rem;
 }
 
-.conferenceBrief{
-    color: #C850C0;
+.conferenceBrief {
+    color: #c850c0;
     font-size: 1.1rem;
 }
 
-.brief{
+.brief {
     margin-top: 0.2rem;
     max-width: 18rem;
     font-size: 0.9rem;
 }
 
-.teaser{
+.teaser {
     margin-top: 3rem;
 }
 
-.feedbackPage{
+.feedbackPage {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 3rem;
 }
 
-.feedbackPageTitle{
+.feedbackPageTitle {
     font-size: 2.3rem;
     margin-top: 2rem;
 }
 
-.feedbackPageSubTitle{
+.feedbackPageSubTitle {
     text-align: center;
     width: 22rem;
     font-size: 1.4rem;
     margin: 1.5rem 0rem;
 }
 
-.feedbackPageImage{
+.feedbackPageImage {
     width: 22rem;
 }
 
-.contactUsData{
+.contactUsData {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.feedbackPageInputContainer{
+.feedbackPageInputContainer {
     margin: 0.5rem;
 }
 
-.newsletterContainer{
+.newsletterContainer {
     margin-top: 0.5rem;
     margin-right: 12rem;
 }
 
-.feedbackPageInputContainer label, .newsletterContainer label{
+.feedbackPageInputContainer label,
+.newsletterContainer label {
     font-size: 0.8rem;
 }
 
-.newsletterContainer label{
-    color: #C850C0;
+.newsletterContainer label {
+    color: #c850c0;
 }
 
-#submit{
+#submit {
     padding: 0.4rem 4rem;
 }
 
-#buttonBackground{
+#buttonBackground {
     margin-top: 2rem;
 }
 
-.mainPageFooter{
+.mainPageFooter {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
     margin-top: 5rem;
     padding: 2rem 0rem;
     align-items: center;
 }
 
-
-.communicationIcons{
+.communicationIcons {
     width: 1.2rem;
     margin-right: 0.5rem;
-
 }
 
-.thxMessageContainer{
+.thxMessageContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.thanksMessage{
+.thanksMessage {
     text-align: center;
     margin-top: 1rem;
     color: #ffffff;
     font-size: 0.8rem;
-
 }
 
-.thanksMessage span a{
-    color: #01044A;
+.thanksMessage span a {
+    color: #01044a;
     text-decoration: none;
 }
 
-.socialMediaInfo{
+.socialMediaInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -451,46 +480,49 @@
     text-decoration: none;
 }
 
-.socialMediaIcons{
+.socialMediaIcons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.Communication, .communicationIconText{
+.Communication,
+.communicationIconText {
     color: #ffffff;
     font-size: 0.8rem;
-
 }
 
-.Communication{
+.Communication {
     font-size: 0.9rem;
 }
 
-.thxMessageContainer img{
+.thxMessageContainer img {
     width: 5rem;
-} 
-
-.communicationIconText{
-    font-size: 0.8rem;
-
 }
 
-.conferenceDateContainer{
+.communicationIconText {
+    font-size: 0.8rem;
+}
+
+.conferenceDateContainer {
     margin-top: 1rem;
 }
 
-
-#loginPageBody{
+#loginPageBody {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
 }
 
-.loginSection{
+.loginSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -499,56 +531,54 @@
     padding: 12rem 3.5rem;
     padding-top: 5rem;
     border-radius: 1rem;
-    transition: all 0.25s ease-in-out;    
+    transition: all 0.25s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.loginSection:hover{
+.loginSection:hover {
     transform: translateY(-1.5px);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-#loginLogo{
+#loginLogo {
     width: 10rem;
-    
 }
 
-#loginEmail, #password{
+#loginEmail,
+#password {
     width: 20rem;
     height: 2.2rem;
 }
 
-.loginDataContainer{
+.loginDataContainer {
     margin-top: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
 }
 
-#loginDataContainer{
+#loginDataContainer {
     margin-top: 3rem;
 }
 
-.buttonBackground{
+.buttonBackground {
     margin-top: 2.5rem;
     margin-left: 0rem;
 }
 
-.loginDataContainer label{
+.loginDataContainer label {
     font-size: 0.9rem;
 }
 
-#loginButton{
+#loginButton {
     padding: 0.4rem 4rem;
 }
 
-
-.panelBody{
+.panelBody {
     display: grid;
     grid-template-rows: 140px auto;
-
 }
 
-.panelTopPart{
+.panelTopPart {
     grid-row: 1/2;
     display: flex;
     justify-content: space-between;
@@ -558,87 +588,86 @@
     margin-top: 1rem;
     margin-left: 1rem;
     align-items: center;
-    
 }
 
-.userLogo{
+.userLogo {
     width: 6rem;
     height: 6rem;
     /* margin-right: 1rem; */
 }
 
-.userInformationContainer{
+.userInformationContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.userInfromation{
+.userInfromation {
     margin-left: 0.5rem;
 }
 
-.userName{
+.userName {
     font-size: 1.2rem;
 }
 
-.role{
+.role {
     color: #969898;
 }
 
-.roleAndActivity{
+.roleAndActivity {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
-.userActivity{
+.userActivity {
     width: 0.7rem;
     margin-left: 0.3rem;
     margin-top: 0.1rem;
 }
 
-.panelSearchAndSort{
+.panelSearchAndSort {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.panelSortContainer, .panelTextFieldContainer{
+.panelSortContainer,
+.panelTextFieldContainer {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
 }
 
-.panelSortContainer label, .panelTextFieldContainer label {
-    color: #C850C0;
+.panelSortContainer label,
+.panelTextFieldContainer label {
+    color: #c850c0;
 }
 
-#addSchedule{
+#addSchedule {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
 }
 
-#addScheduleBackground{
+#addScheduleBackground {
     align-self: flex-start;
-
 }
 
-.logoutLogo{
+.logoutLogo {
     width: 1.5rem;
     height: 1.5rem;
-    margin-right:0.8rem ;
+    margin-right: 0.8rem;
 }
 
-.logoutLogoContainer{
+.logoutLogoContainer {
     align-self: flex-start;
 }
 
-.panelView{
+.panelView {
     grid-row: 2/3;
 }
 
-.scheduleCard{
+.scheduleCard {
     display: flex;
     flex-direction: column;
     max-width: 25rem;
@@ -651,96 +680,108 @@
     margin-bottom: 0.5rem;
 }
 
-.scheduleTitle, .scheduleBrief {
+.scheduleTitle,
+.scheduleBrief {
     text-align: center;
     margin-bottom: 0.5rem;
 }
 
-.locationContainer, .dateContainer{
+.locationContainer,
+.dateContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 0.5rem;
 }
 
-.locationPin, .calendarPin {
+.locationPin,
+.calendarPin {
     margin-right: 0.5rem;
 }
 
-.sessionsContainer{
-
+.sessionsContainer {
 }
 
-.presentersContainer{
-
+.presentersContainer {
 }
 
-.panelView{
+.panelView {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
     justify-items: center;
     margin-top: 1rem;
 }
 
-.timeToContainer{
+.timeToContainer {
     display: flex;
     flex-direction: row;
-    
 }
 
-.toAndFromTime, .presentersTitle, .presenterTitle{
-    color: #455A64;
+.toAndFromTime,
+.presentersTitle,
+.presenterTitle {
+    color: #455a64;
 }
 
-.fromTimeTitle, .toTimeTitle{
+.fromTimeTitle,
+.toTimeTitle {
     margin-left: 1rem;
     margin-right: 0.3rem;
-    color: #455A64;
+    color: #455a64;
 }
 
-.locationAndTime, .sessions{
-    color: #C850C0;
+.locationAndTime,
+.sessions {
+    color: #c850c0;
     margin-bottom: 0.5rem;
 }
 
-.locationPin, .calendarPin{
+.locationPin,
+.calendarPin {
     width: 1.2rem;
     height: 1.2rem;
 }
 
-.presenterPic{
+.presenterPic {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
 }
 
-.presenter{
+.presenter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: #01044A 1px solid;
+    border: #01044a 1px solid;
     max-width: 10rem;
     text-align: center;
 }
 
-.scheduleButtonContainer{
+.scheduleButtonContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 1.2rem;
 }
 
-#editScheduleBackground, #deleteScheduleBackground{
+#editScheduleBackground,
+#deleteScheduleBackground {
     margin: 0rem;
 }
 
-#editSchedule, #deleteSchedule{
+#editSchedule,
+#deleteSchedule {
     padding: 0.3rem 4rem;
     font-size: 0.95rem;
 }
 
-.scheduleCardBackGround{
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+.scheduleCardBackGround {
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
     width: 25rem;
     padding: 0.1rem;
     border-radius: 3rem;
@@ -748,72 +789,72 @@
     transition: all 0.15s ease-in-out;
 }
 
-.scheduleCardBackGround:hover{
+.scheduleCardBackGround:hover {
     transform: translateY(-1px);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
-.addScheduleTitle{
+.addScheduleTitle {
     margin-bottom: 1rem;
     margin-right: 15rem;
 }
 
-.editorPanelView{
-
+.editorPanelView {
 }
 
-.editorPanelView h2{
+.editorPanelView h2 {
     margin-left: 1rem;
 }
 
-.editorPanelView h3{
+.editorPanelView h3 {
     margin-left: 2rem;
 }
 
-.editorPanelView h2{
+.editorPanelView h2 {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
-.editorPanelView h3, .editorPanelView span {
-    color: #455A64;
+.editorPanelView h3,
+.editorPanelView span {
+    color: #455a64;
 }
 
-.theSessionTitle{
+.theSessionTitle {
     font-size: 1.4rem;
 }
 
-.presentersHeader{
+.presentersHeader {
     font-size: 1.25rem;
 }
 
-.editorPanelView select{
+.editorPanelView select {
     background-color: #ffffff;
 }
 
-.mainScheduleData, .fromAndToContainers, .editorPresentersContainer{
+.mainScheduleData,
+.fromAndToContainers,
+.editorPresentersContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-
 }
 
-.editorInputContainer{
+.editorInputContainer {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    
 }
 
-.editorInputContainer label{
+.editorInputContainer label {
     margin-left: 0.2rem;
-    color: #C850C0;
+    color: #c850c0;
 }
 
-.editorInputContainer input, .editorInputContainer textarea, .editorInputContainer select{
-
+.editorInputContainer input,
+.editorInputContainer textarea,
+.editorInputContainer select {
     /* background-color: #ffffff;
     border-color: #ADADAD;
     border-width: 1.5px;
@@ -822,29 +863,27 @@
     width: 25rem;
     height: 2.6rem; */
 
-
-    border-color: #ADADAD;
+    border-color: #adadad;
     border-width: 1.5px;
     border-radius: 0.5rem;
 
     padding: 0.6rem;
     width: 25rem;
-
-
 }
 
-
-.submitScheduleButtonContainer{
+.submitScheduleButtonContainer {
     display: flex;
     justify-content: flex-end;
-    margin: 2rem 0rem
+    margin: 2rem 0rem;
 }
 
-#cancelSchedule, #submitSchedule{
+#cancelSchedule,
+#submitSchedule {
     padding: 0.5rem 3rem;
 }
 
-#submitScheduleBackground, #cancelScheduleBackground{
+#submitScheduleBackground,
+#cancelScheduleBackground {
     margin: 0rem;
     margin-right: 1rem;
 }
